@@ -1,0 +1,342 @@
+/* General */
+a{text-decoration: none;}
+body a:hover{color:bisque;}
+
+b{
+    color: rgb(255, 153, 0);
+    font-size: 50px;
+}
+
+/* Secciones Main */
+.site-header{
+    background-image: url(img/wall1.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 400px;
+   
+    display: flex;
+    justify-content: space-between;
+}
+.site-header h1{
+    margin-top: 10px;
+    color: whitesmoke;
+    margin-left: 20px;
+}
+.links a{
+    color: rgb(53, 2, 2);  /*   color: rgb(53, 2, 2); */
+    justify-content: end;
+    margin-top: 10px;
+    /* margin-left: 5px; */
+    margin-right: 20px;
+    font-size:20px;
+}
+.algo{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: end;
+}
+.info{    
+    display: block;
+    text-align: end;
+    font-size: 25px;    
+}
+.parrafo{
+    text-align: left;
+}
+.Frase{
+    font-size: 25px;    
+    display: flex;
+    justify-content: center;
+    color: rgb(151, 169, 252);
+    background-color: rgb(99, 99, 99);
+    max-height: 3rem;
+}
+.Frase p{
+    padding: 0;
+    margin-top: 10px;
+}
+
+/* Autos */
+.Texto{font-size: 40px; text-align: center;}
+.Texto b{color: rgba(60, 112, 0, 0.582);}
+.Texto b:hover{color: coral;}
+.Texto-otro{
+    margin-left: 200px;
+    padding: 40px;
+    font-size: 50px;
+}
+.Texto-otro b{color: rgba(60, 112, 0, 0.582);}
+.Texto-otro b:hover{color: coral;}
+.Texto-otro em{color:blueviolet;}
+.autos-disponibles{
+    display: flex;
+    justify-content: space-around;    
+}
+.carro{
+    border-style: solid;
+    border-width: 0px;
+    background-color: rgb(231, 222, 222);
+}
+.logo-carro{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    margin-top: 8px;
+}
+.iconos{
+    flex: 1;
+    display: flex;
+    padding: 0px;
+    margin-left: 10px;
+}
+.asientos{
+    list-style: none;
+    padding: 0px 10px;
+    display: flex;
+    margin-left: 60px;
+}
+.precio{color:rgb(3, 90, 3);}
+.boton{
+    color: aliceblue;
+    /* font-weight: 3rem; */
+    padding: 0.3rem;
+    margin:0.3rem;
+    text-align: center;
+    /* display: inline-block; */
+    /* margin-left: 10px; */
+}
+.boton-detalles{
+    background-color: rgb(70, 70, 70);
+    display: block;
+}
+.boton-mas{    
+    background-color: rgb(44, 1, 143);
+    margin-top: 20px;
+    padding: 0.8rem 2rem;
+}
+.ver-mas{
+    display: flex;
+    justify-content: end;
+    margin-right: 30px;
+    margin-right: 10px;
+}
+
+.boton-premium{
+    padding: 0.5rem 2rem;
+    
+    background-color: rgba(1, 78, 53, 0.719);
+}
+
+/* Motos */
+.motos-disponibles{
+    display: flex;
+    justify-content: space-around;   
+}
+.moto{
+    min-height: 350px;
+    max-height: 400px;
+}
+.pirueta b{
+    color: rgb(124, 122, 122);
+    font-size: 20px;
+}
+.logo-moto{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    margin-top: 8px;
+}
+.logo-moto-d{
+    margin-left: 30px;
+}
+.logo-moto-d b{
+    font-size: 20px;
+}
+
+/* Premium */
+.Premium{
+    background-image: url(img/premiumwall2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+}
+.carro-premium{
+    border-style: solid;
+    background-color: coral;
+    border-width: 0px;
+    max-width: 250px;
+    display: block;
+}
+.detalle-premium{
+    margin-left: 10px;   
+}
+.precio-premium{
+    color:rgb(0, 46, 19)
+}
+.precio-premium:hover{
+    color: rgb(0, 92, 35);
+}
+
+.logo-premium{
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    justify-self: center;
+}
+
+.boton-detalles-premium{
+    background-color: gray;
+    display: block;
+}
+.ver-mas-premium{
+    margin-top: 386px;
+}
+.Contenido-premium{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+}
+/* Motos premium */
+.motos-premium{
+    background-image: url(img/wallMotos.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.mpr b{
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
+/* Final */
+.final h2{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 0px;
+}
+
+/* Footer */
+footer{
+    background-color: rgba(77, 77, 77, 0.63);
+}
+.derechos{
+    display: flex;
+    justify-content: space-between;
+}
+.Parrafo-derechos{
+    font-size: 50px;
+    color: rgb(0, 255, 157);
+}
+.Parrafo-derechos b{
+    font-size: 50px;
+    color: azure;
+}
+.Parrafo-derechos b:hover{
+    color: orange;
+}
+.frase-iconica{
+    display: flex;
+    justify-content: end;
+    margin-top: 14px;
+}
+.frase-iconica blockquote{
+    text-align: center;
+    border-style: solid;
+    max-width: 300px;
+    background-color: azure;
+    height: 100px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+.redes2 a{
+    font-size: 30px;
+    color: rgb(255, 27, 27);
+    margin-left: 10px;
+}
+
+/* Catalogo */
+.catalogo-header{
+    background-color: grey;
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+    height: 200px;
+    justify-content: space-between;
+}
+.catalogo-header h1{
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.links a{
+    color: rgb(53, 2, 2);  /*   color: rgb(53, 2, 2); */
+    justify-content: end;
+    margin-top: 10px;
+    /* margin-left: 5px; */
+    margin-right: 20px;
+    font-size:20px;
+}
+/* Presentacion */
+.presentacion{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.presentacion h2{
+    color: rgb(4, 102, 102);
+    font-size: 50px;
+    margin-left: 30px;
+}
+.presentacion.links{
+    margin-top: 0px;
+    display: grid;
+}
+.carros{
+    text-align: center;
+    color: crimson;
+    font-size: 50px;
+}
+.catalogo{
+    margin-top: 20px;
+    display: flex;
+    background-color: rgba(54, 54, 54, 0.13);
+    max-width: 800px;
+
+}
+.titulo{
+    display: block;
+    justify-content: end;
+    
+}
+.titulo p{
+    font-size: 40px;
+    margin-left: 40px;
+}
+.rf a{
+    color: coral;
+    background-color: rgb(52, 52, 53);
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.titulo .descripcion{
+    font-size: 20px;
+}
+.titulo .precio{
+    font-size: 40px;
+}
+
+/* Footer Catalogo */
+.bueno{
+    background-color: black;
+    color: aliceblue;
+}
+.creditos{
+    margin-bottom: 0px;
+}
+.catalogo-footer{
+    padding: 0%;
+    margin-bottom: 0px;
+}
